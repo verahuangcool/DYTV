@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D90A0921CBCB09200B7706E /* AA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D90A0911CBCB09200B7706E /* AA.m */; };
 		C7B1632C1CBCADFC0023790C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1632B1CBCADFC0023790C /* main.m */; };
 		C7B1632F1CBCADFC0023790C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1632E1CBCADFC0023790C /* AppDelegate.m */; };
 		C7B163321CBCADFC0023790C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B163311CBCADFC0023790C /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D90A0901CBCB09200B7706E /* AA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AA.h; sourceTree = "<group>"; };
+		4D90A0911CBCB09200B7706E /* AA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AA.m; sourceTree = "<group>"; };
 		C7B163271CBCADFC0023790C /* DYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B1632B1CBCADFC0023790C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7B1632D1CBCADFC0023790C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				C7B1632E1CBCADFC0023790C /* AppDelegate.m */,
 				C7B163301CBCADFC0023790C /* ViewController.h */,
 				C7B163311CBCADFC0023790C /* ViewController.m */,
+				4D90A0901CBCB09200B7706E /* AA.h */,
+				4D90A0911CBCB09200B7706E /* AA.m */,
 				C7B163331CBCADFC0023790C /* Main.storyboard */,
 				C7B163361CBCADFC0023790C /* Assets.xcassets */,
 				C7B163381CBCADFC0023790C /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B163321CBCADFC0023790C /* ViewController.m in Sources */,
+				4D90A0921CBCB09200B7706E /* AA.m in Sources */,
 				C7B1632F1CBCADFC0023790C /* AppDelegate.m in Sources */,
 				C7B1632C1CBCADFC0023790C /* main.m in Sources */,
 			);
@@ -299,6 +305,7 @@
 				C7B163401CBCADFC0023790C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
